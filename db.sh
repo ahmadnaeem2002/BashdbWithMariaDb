@@ -134,7 +134,7 @@ do
                                 then
                                         echo "ID is not exist, Please try again!"
                                 else
-					queryCustomer ${E}
+					queryID ${E}
 					echo -n "Are you to update this customer ? (y/n): "
                         		read ED
 					if [ ${ED} == 'y' ]
