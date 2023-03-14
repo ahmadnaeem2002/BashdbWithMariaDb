@@ -208,7 +208,9 @@ do
 			echo "Invalid choice, try again"
 	esac
 done
-
+set -x
+./syncdb.sh
+set +x
 exit 0
 
 
