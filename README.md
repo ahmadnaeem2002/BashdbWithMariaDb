@@ -46,10 +46,7 @@ The script manages user data <br>
 ## Run the script
 ```
 ## Synchronize the files with mariadb
+- this script will run automaticlly
 ```
 [root@server ~]# ./syncdb.sh
-```
-## script must be called from Crontab 
-```
-*/2 * * * /home/syncdb.sh
 ```
